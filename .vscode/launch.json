@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CaesarCipherApp",
+            "request": "launch",
+            "mainClass": "CaesarCipherProject.CaesarCipherApp",
+            "projectName": "The_ Caesar_Cipher_Alogorithm_6d345167"
+        },
+        {
+            "type": "java",
+            "name": "Launch CaesarCipherApp",
+            "request": "launch",
+            "mainClass": "com.cipher.CaesarCipherApp",
+            "projectName": "CaesarCipherProject"
+        }
+    ]
+}
