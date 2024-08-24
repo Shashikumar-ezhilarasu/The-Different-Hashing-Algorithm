@@ -1,87 +1,21 @@
-**Caesar Cipher Java Project**
+**Caesar Cipher Python Project**
 *Overview*
 The Caesar Cipher Java Project is a simple implementation of the classic Caesar Cipher encryption algorithm. This program allows users to encrypt and decrypt messages by shifting the letters of the alphabet by a specified number of positions. The project is written in Java and is intended to provide a basic understanding of how substitution ciphers work.
 
-Features
-Encryption: Encrypts plaintext by shifting each letter by a specified number of positions.
-Decryption: Decrypts ciphertext by reversing the shift applied during encryption.
-User Input: Allows users to specify the shift value and input the text via the console.
-Preservation of Non-Letters: Non-letter characters (e.g., numbers, punctuation) remain unchanged.
-Getting Started
-Prerequisites
-Java Development Kit (JDK): Make sure you have JDK installed on your system. You can download it from the Oracle website or use OpenJDK.
-Visual Studio Code: You can download it from the Visual Studio Code website.
-Java Extensions for VSCode: Install the Java Extension Pack from the VSCode Extensions Marketplace.
-Installation
-Clone the Repository:
+How It Works:
+Encrypt Function: The encrypt function shifts each letter in the input text by the given shift amount. If the character is not a letter, it is left unchanged.
 
-bash
-Copy code
-git clone https://github.com/your-username/CaesarCipherProject.git
-cd CaesarCipherProject
-Open in VSCode:
+Decrypt Function: The decrypt function shifts the text back by the negative of the shift amount, effectively reversing the encryption.
 
-Launch Visual Studio Code.
-Open the cloned repository folder.
-Build the Project:
+GUI Components:
 
-Open the terminal in VSCode.
-Navigate to the project directory and compile the Java files:
-bash
-Copy code
-javac -d bin src/com/cipher/*.java
-Run the Application:
-
-Use the terminal or the VSCode run configuration to execute the program:
-bash
-Copy code
-java -cp bin com.cipher.CaesarCipherApp
-Usage
-Run the Application:
-
-Open a terminal and navigate to the project directory.
-Execute the main class:
-bash
-Copy code
-java -cp bin com.cipher.CaesarCipherApp
-Enter the Shift Value:
-
-Provide an integer value for the shift. This determines how many positions each letter will be moved in the alphabet.
-Input the Plaintext:
-
-Type the text you want to encrypt. The program will output the encrypted message.
-View Encrypted and Decrypted Text:
-
-The application will display the encrypted text and then decrypt it back to the original plaintext.
-Example
-yaml
-Copy code
-Enter the shift value: 3
-Enter the plaintext: HELLO WORLD
-Encrypted text: KHOOR ZRUOG
-Decrypted text: HELLO WORLD
-Project Structure
-plaintext
-Copy code
-CaesarCipherProject/
-│
-├── src/
-│   └── com/
-│       └── cipher/
-│           ├── CaesarCipher.java
-│           └── CaesarCipherApp.java
-│
-├── bin/  (compiled Java classes)
-│
-└── .vscode/
-    └── launch.json  (VSCode configuration for running the project)
-Code Explanation
-CaesarCipher.java
-Constructor: Initializes the cipher with a specified shift value.
-encrypt(String plaintext): Encrypts the plaintext by shifting each letter.
-decrypt(String ciphertext): Decrypts the ciphertext by reversing the shift.
-CaesarCipherApp.java
-Main Method: Handles user input for shift value and plaintext, then displays the encrypted and decrypted text.
-Customization
-Shift Value: You can modify the shift value directly in the code or allow the user to input it via the console.
-Character Handling: Extend the algorithm to handle special characters, numbers, or ignore certain characters as needed.
+Input Text: A text box where you can enter the plain text to encrypt or the cipher text to decrypt.
+Shift Entry: An entry field where you specify the shift amount.
+Encrypt Button: Encrypts the text in the input text box and displays the result in the output text box.
+Decrypt Button: Decrypts the text in the input text box and displays the result in the output text box.
+Output Text: A text box where the result (encrypted or decrypted text) is displayed.
+Running the Code:
+Copy the code into a Python file (e.g., caesar_cipher_gui.py).
+Run the file using Python: python caesar_cipher_gui.py.
+A window will open where you can enter text, specify a shift value, and click buttons to encrypt or decrypt the text.
+This GUI provides a simple way to interact with the Caesar Cipher algorithm.
