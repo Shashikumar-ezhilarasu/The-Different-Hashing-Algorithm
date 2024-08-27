@@ -19,3 +19,9 @@ Copy the code into a Python file (e.g., caesar_cipher_gui.py).
 Run the file using Python: python caesar_cipher_gui.py.
 A window will open where you can enter text, specify a shift value, and click buttons to encrypt or decrypt the text.
 This GUI provides a simple way to interact with the Caesar Cipher algorithm.
+
+## Features
+
+- Encrypt and decrypt messages using the Caesar Cipher.
+- Adjustable shift value for encryption and decryption.
+- Simple and intuitive GUI.
