@@ -7,6 +7,8 @@ Encrypt Function: The encrypt function shifts each letter in the input text by t
 
 Decrypt Function: The decrypt function shifts the text back by the negative of the shift amount, effectively reversing the encryption.
 
+**Deffie -Hellman**
+
 GUI Components:
 
 Input Text: A text box where you can enter the plain text to encrypt or the cipher text to decrypt.
