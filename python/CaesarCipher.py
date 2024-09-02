@@ -46,6 +46,5 @@ decrypt_button.pack()
 tk.Label(root, text="Output Text:").pack()
 output_text = tk.Text(root, height=5, width=40)
 output_text.pack()
-
-
+#remive spacing in the output
 root.mainloop()
