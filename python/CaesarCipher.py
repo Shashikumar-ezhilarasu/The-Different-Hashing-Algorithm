@@ -1,3 +1,5 @@
+# remove the spacing in the output so to make it harder to predict and stay protected
+
 import tkinter as tk
 from tkinter import messagebox
 
