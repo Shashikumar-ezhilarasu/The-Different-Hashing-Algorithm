@@ -1,3 +1,5 @@
+# remove the spacing in the output so to make it harder to predict and stay protected
+
 import tkinter as tk
 
 def encrypt(text, shift):
@@ -53,5 +55,9 @@ decrypt_button.pack()
 tk.Label(root, text="Output Text:").pack()
 output_text = tk.Text(root, height=5, width=40)
 output_text.pack()
+<<<<<<< HEAD
 
+=======
+#remive spacing in the output
+>>>>>>> 18d6acc09bbb6975ef6b3a1af65e80ca726469e1
 root.mainloop()
