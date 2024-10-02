@@ -61,3 +61,4 @@ output_text.pack()
 #remive spacing in the output
 >>>>>>> 18d6acc09bbb6975ef6b3a1af65e80ca726469e1
 root.mainloop()
+#spacing removed
