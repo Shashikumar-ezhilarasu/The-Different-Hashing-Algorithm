@@ -70,3 +70,4 @@ output_text.pack()
 
 # Run the application
 root.mainloop()
+#spacing removed
