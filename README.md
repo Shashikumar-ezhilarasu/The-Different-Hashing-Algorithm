@@ -33,3 +33,5 @@ GUI Components:
 - Encrypt and decrypt messages using the Caesar Cipher.
 - Adjustable shift value for encryption and decryption.
 - Simple and intuitive GUI.
+
+further imporovements can be made ~
