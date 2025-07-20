@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/505cac09-a93c-49b5-8128-293c37ca5ac2)
 
 The Caesar Cipher Java Project is a simple implementation of the classic Caesar Cipher encryption algorithm. This program allows users to encrypt and decrypt messages by shifting the letters of the alphabet by a specified number of positions. The project is written in Java and is intended to provide a basic understanding of how substitution ciphers work.
-
+ 
 How It Works:
 Encrypt Function: The encrypt function shifts each letter in the input text by the given shift amount. If the character is not a letter, it is left unchanged.
 
